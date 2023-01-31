@@ -6,7 +6,7 @@ const Navigation = () => {
   return (
     <nav className="navbar">
       <div className="left">
-        <h1><Link to="/"> BRAND </Link></h1>
+        <h1><Link> BRAND</h1>
       </div>
 
       <div className="right">

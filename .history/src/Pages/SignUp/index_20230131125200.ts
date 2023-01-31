@@ -1,0 +1,1 @@
+export {default} fom './SIgnUp.pages.tsx'

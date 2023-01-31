@@ -6,7 +6,7 @@ const Navigation = () => {
   return (
     <nav className="navbar">
       <div className="left">
-        <h1><Link to="/"> BRAND </Link></h1>
+        <h1>BRAND</h1>
       </div>
 
       <div className="right">
@@ -28,9 +28,9 @@ const Navigation = () => {
         </label>
 
         <ul className="list">
-          <li> <Link to="/">Home</Link></li>
-          <li> <Link to="/signin">Sign In</Link></li>
-          <li> <Link to="signup">Sign Up</Link></li>
+          <li> <Link to="/">Home</a></li>
+          <li> <a href="#">Sign In</a></li>
+          <li> <a href="#">Sign Up</a></li>
         </ul>
       </div>
     </nav>
