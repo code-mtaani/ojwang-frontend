@@ -122,7 +122,7 @@ const SignUp = () => {
           {/* other buttons */}
           <div className="other">
             {/* Forgot Password button */}
-            <button className="btn submits frgt-pass">Forgot Password</button>
+            {/* <button className="btn submits frgt-pass">Forgot Password</button> */}
             {/* Sign Up button */}
             <button className="btn submits sign-up">
               Sign In
@@ -142,10 +142,10 @@ const SignUp = () => {
                 />
               </svg>
             </button>
-            {/* End  the other Division */}
+            {/* End Other the Division */}
           </div>
 
-          {/* End Container */}
+          {/* End Conrainer */}
         </div>
 
         {/* End Form */}

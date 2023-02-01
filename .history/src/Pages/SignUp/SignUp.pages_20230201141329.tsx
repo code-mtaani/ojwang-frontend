@@ -145,7 +145,7 @@ const SignUp = () => {
             {/* End  the other Division */}
           </div>
 
-          {/* End Container */}
+          {/* End Conrainer */}
         </div>
 
         {/* End Form */}

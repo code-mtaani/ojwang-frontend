@@ -142,10 +142,10 @@ const SignUp = () => {
                 />
               </svg>
             </button>
-            {/* End  the other Division */}
+            {/* End Other the Division */}
           </div>
 
-          {/* End Container */}
+          {/* End Conrainer */}
         </div>
 
         {/* End Form */}
