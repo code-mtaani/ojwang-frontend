@@ -147,11 +147,12 @@ button {
   justify-content: space-evenly;
   font-weight: 500;
 }
-/* .sign-up:hover{
+.sign-up:hover{
   box-shadow: 4px 5px 23px -6px rgba(0,0,0,0.77);
 -webkit-box-shadow: 4px 5px 23px -6px rgba(0,0,0,0.77);
 -moz-box-shadow: 4px 5px 23px -6px rgba(0,0,0,0.77);
-} */
+col
+}
 
 /* buttons hover */
 button:hover {

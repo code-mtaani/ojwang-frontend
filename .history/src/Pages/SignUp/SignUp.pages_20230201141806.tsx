@@ -116,7 +116,7 @@ const SignUp = () => {
             <br />
             {/*  buttons */}
             {/*button LogIn */}
-            <button className="log-in"> Sign Up </button>
+            <button className="log-in"> Sign I </button>
           </div>
 
           {/* other buttons */}
@@ -125,7 +125,7 @@ const SignUp = () => {
             <button className="btn submits frgt-pass">Forgot Password</button>
             {/* Sign Up button */}
             <button className="btn submits sign-up">
-              Sign In
+              Sign Up
               {/* Sign Up font icon */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"

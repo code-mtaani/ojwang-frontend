@@ -1,7 +1,7 @@
 import React from "react";
-import "./Signup.css";
+import "../Signup.css";
 
-const SignUp = () => {
+const SignIn = () => {
   return (
     <div className="overlay">
       <form>
@@ -126,7 +126,7 @@ const SignUp = () => {
             {/* Sign Up button */}
             <button className="btn submits sign-up">
               Sign In
-              {/* Sign Up font icon */}
+              {/* Sign Up icon */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -142,16 +142,14 @@ const SignUp = () => {
                 />
               </svg>
             </button>
-            {/* End  the other Division */}
+            
           </div>
 
-          {/* End Container */}
+          
         </div>
-
-        {/* End Form */}
       </form>
     </div>
   );
 };
 
-export default SignUp;
+export default SignIn;

@@ -116,7 +116,7 @@ const SignUp = () => {
             <br />
             {/*  buttons */}
             {/*button LogIn */}
-            <button className="log-in"> Sign Up </button>
+            <button className="log-in"> Sign In </button>
           </div>
 
           {/* other buttons */}

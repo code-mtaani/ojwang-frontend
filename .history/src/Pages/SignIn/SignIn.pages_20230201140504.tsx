@@ -1,7 +1,7 @@
 import React from "react";
 import "./Signup.css";
 
-const SignUp = () => {
+const SignIn = () => {
   return (
     <div className="overlay">
       <form>
@@ -142,10 +142,10 @@ const SignUp = () => {
                 />
               </svg>
             </button>
-            {/* End  the other Division */}
+            
           </div>
 
-          {/* End Container */}
+          {/* End Conrainer */}
         </div>
 
         {/* End Form */}
@@ -154,4 +154,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default SignIn;
