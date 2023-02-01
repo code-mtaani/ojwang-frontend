@@ -75,8 +75,8 @@ const SignIn = () => {
                 ) : (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
+                    width="2"
+                    height="2"
                     fill="currentColor"
                     className="bi bi-eye"
                     viewBox="0 0 16 16"

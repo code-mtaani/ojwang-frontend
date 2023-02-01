@@ -76,6 +76,7 @@ input:focus {
 }
 .test .key svg {
   margin: 5px;
+  cursor: pointer;
 }
 .test input {
   height: 100%;
@@ -97,9 +98,6 @@ input:focus {
   justify-content: center;
   width: 3rem;
   border-radius: 0px 5px 5px 0px;
-}
-.test .show svg{
-  cursor: pointer;
 }
 .field-set {
     display: flex;

@@ -97,10 +97,7 @@ input:focus {
   justify-content: center;
   width: 3rem;
   border-radius: 0px 5px 5px 0px;
-}
-.test .show svg{
-  cursor: pointer;
-}
+}\
 .field-set {
     display: flex;
     flex-direction: column;
