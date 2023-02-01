@@ -99,7 +99,7 @@ input:focus {
   border-radius: 0px 5px 5px 0px;
 }
 .test .show svg{
-  cursor: pointer;
+  cursor: ;
 }
 .field-set {
     display: flex;
