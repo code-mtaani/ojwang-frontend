@@ -1,0 +1,5 @@
+FROM node:16.18.1-buster
+
+WORKDIR /src
+
+COPY package.json /src/package.json

@@ -1,0 +1,7 @@
+FROM node:16.18.1-buster
+
+WORKDIR /src
+
+COPY package.json package.json
+COPY pnpm-lock.yaml pnpm-lock.yaml
+

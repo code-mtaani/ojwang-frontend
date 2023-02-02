@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: ojwang-frontend-cont
+    image: ojwang-frontend-img
+    build:
+      context: -
+    ports: -3000:30

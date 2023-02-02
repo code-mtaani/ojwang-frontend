@@ -1,0 +1,12 @@
+FROM node:16.18.1-buster
+
+WORKDIR /src
+
+COPY package.json .
+
+RUN npm install
+
+COPY . .
+EXPOSE 
+
+CMD ["npm" , "run", "dev"]
