@@ -7,7 +7,7 @@ import SignUp from "./Pages/SignUp"
 
 function App() {
   return (
-   
+   >
       <div className="App">
         <Navigation />
         <Routes>
@@ -16,7 +16,7 @@ function App() {
           <Route path="/signup" element={<SignUp/>} />
         </Routes>
       </div>
-    
+    >
   );
 }
 
