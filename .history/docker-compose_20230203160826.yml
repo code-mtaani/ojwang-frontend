@@ -7,6 +7,4 @@ services:
     build:
       context: .
     ports:
-      - '3000:3000'
-    volumes:
-      - './:/app'
+      - 3000:3000

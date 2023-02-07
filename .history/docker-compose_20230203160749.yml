@@ -1,12 +1,10 @@
 version: "3"
 services:
-  app:
+  ojwang:
     container_name: ojwang-frontend
     image: ojwang-frontend
-    stdin_open: true
     build:
       context: .
     ports:
-      - '3000:3000'
-    volumes:
-      - './:/app'
+      - 3000:3000
+    stdin_open: true

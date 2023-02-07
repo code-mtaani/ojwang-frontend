@@ -1,0 +1,17 @@
+FROM node:16.18.1-buster
+
+LABEL version="1.0"
+LABEL description="Belkan Marketplace dockerized"
+LABEL maintainer = ["akhenda@gmail.com"]
+
+WORKDIR /src
+
+COPY package.json .
+
+RUN npm install
+
+COPY . .
+
+EXPOSE 3000
+
+CMD ["npm" , "run", "dev"]

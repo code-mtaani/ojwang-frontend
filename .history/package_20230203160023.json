@@ -5,12 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "serve": "vite preview",
+    "serve": "vite preview"
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "commit": "cz",
-    "docker:dev": "docker-compose up -d --build",
-    "docker:prod": "docker-compose -f docker-compose.prod.yml up -d --build"
+    "commit": "cz"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.2",
