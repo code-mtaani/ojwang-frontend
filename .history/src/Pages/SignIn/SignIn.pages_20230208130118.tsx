@@ -48,7 +48,7 @@ const SignIn = () => {
       } else {
         setErrMsg("login failed");
       }
-      errRef?.current?.focus();
+      errRef.current.focus();
     }
   };
 
@@ -131,7 +131,6 @@ const SignIn = () => {
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
                     height="20"
-                    handleSubmit
                     fill="currentColor"
                     className="bi bi-eye"
                     viewBox="0 0 16 16"
@@ -145,10 +144,7 @@ const SignIn = () => {
             <br />
             {/*  buttons */}
             {/*button LogIn */}
-            <button className="log-in" onClick={handleSubmit}>
-              {" "}
-              Sign In{" "}
-            </button>
+            <button className="log-in"> Sign In </button>
           </div>
 
           {/* other buttons */}
